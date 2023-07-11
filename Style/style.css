@@ -67,7 +67,7 @@
    
 }
 .second_banner{
-    margin: 80px 120px 40px;
+    margin: 80px 80px 40px;
 }
 .second_banner .second_text_des {
     text-align: center;
@@ -80,9 +80,38 @@
     border-radius: 300px 300px 0px 0px ;
    
 }
-figcaption{
+.figcaption{
     text-align: center;
 }
+.second_banner .Featured{
+    background-color: rgb(0, 0, 0,.1);
+    display: flex;
+    margin: 20px 80px ;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon{
+    height: 88px;
+    width: 88px;
+}
+.third_banner{
+    margin: none;
+    display: flex;
+    align-items: center;
+    padding: 40px 50px;
+    background-color: rgba(229, 84, 115, 0.10);
+
+}
+.third_banner_full{
+    text-align: center;
+    
+}
+.third_des{
+
+}
+
 /* Footer */
 .shopnow{
     background-color: #E55473;
@@ -124,7 +153,7 @@ background-color: rgb(167, 33, 98, .15);
 }
 #p7{
     background-color: rgba(131, 255, 7, 0.281);
-    }
- #p5{
+}
+#p5{
         background-color: rgb(5, 151, 160, .15);
-        }
+}
