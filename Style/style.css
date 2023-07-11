@@ -71,7 +71,7 @@ flex-shrink: 0;
     background-color: #111;
     text-align: center;
     padding: 128px;
-    position: absolute;
+    /* position: absolute; */
     color:rgb(255,255,255,.90)
 
 }
