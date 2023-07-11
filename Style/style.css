@@ -45,8 +45,10 @@
     font-weight: 400;
     line-height: 30px;
     padding: 0px;
+    margin: 0px 0px 0px 80px;
 }
 .banner_titile{
+    margin: 0px 0px 0px 80px;
     width: 708px;
     color: #232323;
     font-family: Lato;
@@ -108,10 +110,28 @@
     text-align: center;
     
 }
-.third_des{
 
+.insta{
+    display: flex;
+    gap: 10px;
+    
 }
-
+.insta > img{
+    height: 396px;
+    width: 342px;
+}
+.lastone{
+    text-align: center;
+    padding: 60px;
+    background-color: #E55473;
+    background-image: url("../image/Rectangle 9.png");    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 40px 80px;
+}
+.lastonedes{
+    color: rgba(0, 0, 0, 0.199);
+}
 /* Footer */
 .shopnow{
     background-color: #E55473;
@@ -121,6 +141,7 @@
     gap: 10px;
     padding: 20px 43px;
     border-radius: 8px;
+    margin: 0px 0px 0px 80px;
 }
 .letter_shop_now{
     color:white;
@@ -128,6 +149,28 @@
     font-size: 20px;
     font-weight: 700;
 }
+.lastonedes{
+    padding: 20px;
+}
+.input{
+    border-color: skyblue;
+    border-radius: 8px;
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+}
+.inputb{
+    border: none;
+    background-color: #E55473;
+    color: #f2f2f2;
+    height: 50px;
+    border-radius: 8px;
+    padding:10px;
+
+
+}
+
+
 .primary_color_f{
     color:#E55473
 }
