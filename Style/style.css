@@ -24,12 +24,63 @@
 
 }
 .navm .navul .nav_a:hover{
-    background-color: #fff;
-    color: #333;
+    background-color: rgba(229, 84, 115, 0.10);
+    color: #f2f2f2;
     
 }
-.first-bimg{
-    width: 30%;
-    height: 150px;
-    position: static;
+.color_background{
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+}
+.pic_img{
+    display: inline-flex;
+    position: absolute;
+    padding: 0px 240px;
+}
+.fristbannerimg{
+    width: 635px;
+
+height: 800px;
+flex-shrink: 0;
+
+}
+.shopnow{
+    background-color: #E55473;
+    border: none;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 43px;
+    border-radius: 8px;
+}
+.letter_shop_now{
+    color:white;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+/* Footer */
+.primary_color_f{
+    color:#E55473
+}
+.foot{
+    background-color: #111;
+    text-align: center;
+    padding: 128px;
+    position: absolute;
+    color:rgb(255,255,255,.90)
+
+}
+.foot_logo{
+    font-size: 48px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+}
+.copyright{
+color:rgb(255,255,255,.40)
 }
